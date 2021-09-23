@@ -22,12 +22,5 @@ class MainActivity : AppCompatActivity() {
         binding.lifecycleOwner = this
         val viewModel: MainViewModel by viewModels()
         binding.viewmodel = viewModel
-//        viewModel.getAll().observe(this, Observer{
-//            binding.resultText.text = it.toString()
-////            result_text.text = it.toString()
-//        })
-//        add_button.setOnClickListener {
-//            viewModel.insert(todo_edit.text.toString())
-//        }
     }
 }
